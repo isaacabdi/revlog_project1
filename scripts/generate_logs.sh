@@ -1,7 +1,12 @@
 #!/bin/bash
 
 # Path to the log file where log entries will be written
-LOGFILE="/var/log/app.log"
+LOGFILE="/home/isaacabdi/revature/project1/logfiles/app.log"
+COUNTER=0
+MAX_ITERATIONS=15
+
+#timeout after 5 sec
+#timeout 5 ./generate_logs.sh
 
 # Infinite loop to continuously generate logs
 while true; do
@@ -47,9 +52,15 @@ while true; do
             ;;
     esac
 
+
     # Write the timestamp, log level, and message to the log file
     echo "$TIMESTAMP [$LEVEL] $MESSAGE" >> $LOGFILE
-    
+    #break after 15 iterations
+    ((COUNTER++))
+    if [ $COUNTER -ge $MAX_ITERATIONS ]; then
+        break
+    fi
     # Wait for a random time between 1 and 5 seconds before generating the next log entry
-    sleep $(shuf -i 30-50 -n 1)
+    sleep $(shuf -i 1-5 -n 1)
+
 done
