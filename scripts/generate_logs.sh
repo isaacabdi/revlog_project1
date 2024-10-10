@@ -2,6 +2,7 @@
 
 # Path to the log file where log entries will be written
 LOGFILE="/home/isaacabdi/revature/project1/logfiles/app.log"
+JSONLOGFILE="/home/isaacabdi/revature/project1/logfiles/appJSON.json"
 COUNTER=0
 MAX_ITERATIONS=15
 
@@ -53,14 +54,32 @@ while true; do
     esac
 
 
-    # Write the timestamp, log level, and message to the log file
+    # Write the timestamp, log level, and message to the json log file
     echo "$TIMESTAMP [$LEVEL] $MESSAGE" >> $LOGFILE
+
+    # # Check if the log file already exists
+    # if [ ! -f "$JSONLOGFILE" ]; then
+    #     # If it doesn't exist, create it and add the opening bracket
+    #     echo "[" > "$JSONLOGFILE"
+    # else
+    #     # If it does exist, remove the last closing bracket and add a comma before appending new entry
+    #     sed -i '$ s/}$/},/' "$JSONLOGFILE"
+    # fi
+
+    # # Write the timestamp, log level, and message to the json log file
+    # echo "{\"timestamp\":\"$TIMESTAMP\", \"level\":\"$LEVEL\", \"message\":\"$MESSAGE\"}" >> "$JSONLOGFILE"
+
+    # When you are done logging (e.g., at the end of your logging session or script execution):
+    # Close the JSON array by appending the closing bracket
+    
+
+
     #break after 15 iterations
     ((COUNTER++))
     if [ $COUNTER -ge $MAX_ITERATIONS ]; then
         break
     fi
     # Wait for a random time between 1 and 5 seconds before generating the next log entry
-    sleep $(shuf -i 1-5 -n 1)
-
+    sleep $(shuf -i 1-2 -n 1)
 done
+#echo "]" >> "$JSONLOGFILE"  # Ensure to run this only once to avoid errors
