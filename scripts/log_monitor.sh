@@ -10,12 +10,16 @@
 #!/bin/bash
 ESCALATEFILE="/home/isaacabdi/revature/project1/logfiles/escalate.log"
 LOGFILE="/home/isaacabdi/revature/project1/logfiles/app.log"
+SCRIPT_LOGFILE="/home/isaacabdi/revature/project1/logfiles/test.txt"
+
 
 DB_NAME='project1'  # Replace with your database name
 USER='isaacabdi'  # Replace with your PostgreSQL username
 PASSWORD='temp1x556!'    # Your PostgreSQL password
 HOST='localhost'  # or '127.0.0.1'
 PORT='5432'  # Default PostgreSQL port
+
+echo "$(date '+%Y-%m-%d %H:%M:%S') - Starting log monitor script." >> "$SCRIPT_LOGFILE"
 
 grep -E "ERROR|FATAL" $LOGFILE > $ESCALATEFILE
 
@@ -41,7 +45,7 @@ awk -F' \\[|\\] ' -v dbname="$DB_NAME" -v user="$USER" -v host="$HOST" -v port="
     if (system(cmd) != 0) {
         print "Error inserting entry into database:", PSQL;
     }
-}' "$ESCALATEFILE" 2>> /home/isaacabdi/revature/project1/logfiles/test.txt
+}' "$ESCALATEFILE" 2>> "$SCRIPT_LOGFILE"
 
 
 # Insert into PostgreSQL
