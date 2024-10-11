@@ -20,3 +20,80 @@ INSERT 0 1
 INSERT 0 1
 INSERT 0 1
 INSERT 0 1
+Cleared app.log file.
+Cleared app.log file.
+Cleared app.log file.
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+Cleared app.log file.
+import-im6.q16: unable to open X server `' @ error/import.c/ImportImageCommand/346.
+/home/isaacabdi/revature/project1/src/alert_system.py: 6: from: not found
+/home/isaacabdi/revature/project1/src/alert_system.py: 8: DB_NAME: not found
+/home/isaacabdi/revature/project1/src/alert_system.py: 9: USER: not found
+/home/isaacabdi/revature/project1/src/alert_system.py: 10: PASSWORD: not found
+/home/isaacabdi/revature/project1/src/alert_system.py: 11: HOST: not found
+/home/isaacabdi/revature/project1/src/alert_system.py: 12: PORT: not found
+/home/isaacabdi/revature/project1/src/alert_system.py: 14: Syntax error: "(" unexpected
+Cleared app.log file.
+Database connection closed.
+Cleared app.log file.
+Database connection closed.
+Cleared app.log file.
+Database connection closed.
+2024-10-11 14:38:36 - Starting log monitor script.
+Cleared app.log file.
+2024-10-11 14:40:01 - Starting log monitor script.
+ALERT: 6 fatal error(s) detected!
+
+Database connection closed.
+2024-10-11 14:42:01 - Starting log monitor script.
+DELETE 0
+Entries older than 1 hour deleted successfully.
+Cleared app.log file.
+2024-10-11 14:44:01 - Starting log monitor script.
+DELETE 0
+Entries older than 1 hour deleted successfully.
+Cleared app.log file.
+2024-10-11 14:46:02 - Starting log monitor script.
+DELETE 0
+Entries older than 1 hour deleted successfully.
+Cleared app.log file.

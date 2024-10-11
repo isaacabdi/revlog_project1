@@ -75,10 +75,10 @@ while true; do
 
 
     #break after 15 iterations
-    ((COUNTER++))
-    if [ $COUNTER -ge $MAX_ITERATIONS ]; then
-        break
-    fi
+    # ((COUNTER++))
+    # if [ $COUNTER -ge $MAX_ITERATIONS ]; then
+    #     break
+    # fi
     # Wait for a random time between 1 and 5 seconds before generating the next log entry
     sleep $(shuf -i 1-2 -n 1)
 done
