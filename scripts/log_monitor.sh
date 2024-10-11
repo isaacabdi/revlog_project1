@@ -25,11 +25,6 @@ grep -E "ERROR|FATAL" $LOGFILE > $ESCALATEFILE
 # Process escalate.log with awk
 awk -F' \\[|\\] ' -v dbname="$DB_NAME" -v user="$USER" -v host="$HOST" -v port="$PORT" -v password="$PASSWORD" '
 {
-    if (NF < 3) {
-        print "Error: Log line format incorrect:", $0;
-        next;  # Skip lines with incorrect format
-    }
-
     TIMESTAMP=$1;   # Extract timestamp
     LEVEL=$2;       # Extract log level
     MESSAGE = substr($0, index($0, $3));  # Extract the message part
