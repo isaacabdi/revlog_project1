@@ -1,0 +1,22 @@
+DELETE 9
+Entries older than 1 hour deleted successfully.
+Cleared app.log file.
+Cleared app.log file.
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+Cleared app.log file.
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+Cleared app.log file.
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1

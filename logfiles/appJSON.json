@@ -1,0 +1,17 @@
+[
+{"timestamp":"2024-10-10 13:39:26", "level":"ERROR", "message":"Database connection lost while processing transaction ID 98765."},
+{"timestamp":"2024-10-10 13:39:31", "level":"INFO", "message":"Scheduled job 'cleanup_temp_files' executed at 2024-10-10 13:39:31."},
+{"timestamp":"2024-10-10 13:39:33", "level":"WARNING", "message":"Unusually high number of login attempts from IP 192.168.1.101."},
+{"timestamp":"2024-10-10 13:39:34", "level":"INFO", "message":"Scheduled job 'cleanup_temp_files' executed at 2024-10-10 13:39:34."},
+{"timestamp":"2024-10-10 13:39:36", "level":"ERROR", "message":"Payment gateway timeout for transaction ID 87654."},
+{"timestamp":"2024-10-10 13:39:38", "level":"WARNING", "message":"Unusually high number of login attempts from IP 192.168.1.101."},
+{"timestamp":"2024-10-10 13:39:39", "level":"INFO", "message":"User ID 12345 successfully logged in."},
+{"timestamp":"2024-10-10 13:39:40", "level":"FATAL", "message":"Service 'app-backend' failed to start: Missing dependency."},
+{"timestamp":"2024-10-10 13:39:42", "level":"INFO", "message":"User ID 98765 updated account details."},
+{"timestamp":"2024-10-10 13:39:43", "level":"ERROR", "message":"Unable to send email: SMTP server not responding."},
+{"timestamp":"2024-10-10 13:39:45", "level":"FATAL", "message":"Server crashed due to memory overflow at address 0x004FA1."},
+{"timestamp":"2024-10-10 13:39:46", "level":"ERROR", "message":"User ID 67890 failed to authenticate. Invalid credentials."},
+{"timestamp":"2024-10-10 13:39:47", "level":"FATAL", "message":"Disk failure detected on /dev/sdb. Immediate replacement required."},
+{"timestamp":"2024-10-10 13:39:48", "level":"WARNING", "message":"Database query took longer than expected (3.4 seconds)."},
+{"timestamp":"2024-10-10 13:39:50", "level":"ERROR", "message":"Payment gateway timeout for transaction ID 87654."}
+]
