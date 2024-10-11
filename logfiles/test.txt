@@ -1,8 +1,12 @@
-ERROR:  syntax error at or near "13"
-LINE 1: ...timestamplogged,level,message) VALUES (2024-10-10 13:50:24, ...
-                                                             ^
-ERROR:  syntax error at or near "13"
-LINE 1: ...timestamplogged,level,message) VALUES (2024-10-10 13:50:25, ...
-DELETE 8
+DELETE 9
 Entries older than 1 hour deleted successfully.
 Cleared app.log file.
+Cleared app.log file.
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1

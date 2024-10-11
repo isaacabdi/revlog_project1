@@ -1,5 +1,4 @@
-#cleanup old db logs
-#clear app.log txt file?
+#cleanup old db logs older than 1 hour clear app.log txt file
 #!/bin/bash
 
 # Database connection details
@@ -23,6 +22,6 @@ else
 fi
 
 #Clear app.log txt
-: > "/home/isaacabdi/revature/project1/logfiles/app.log"
+: > "/home/isaacabdi/revature/project1/logfiles/app.log" && : > "/home/isaacabdi/revature/project1/logfiles/escalate.log"
 # Log that the file has been cleared
 echo "Cleared app.log file." >> "/home/isaacabdi/revature/project1/logfiles/test.txt"
