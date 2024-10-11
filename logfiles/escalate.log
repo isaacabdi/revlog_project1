@@ -1,8 +1,5 @@
-2024-10-11 11:38:03 [FATAL] Server crashed due to memory overflow at address 0x004FA1.
-2024-10-11 11:38:05 [ERROR] Unable to send email: SMTP server not responding.
-2024-10-11 11:38:10 [FATAL] Critical error: Kernel panic occurred. System halted.
-2024-10-11 11:38:12 [FATAL] Server crashed due to memory overflow at address 0x004FA1.
-2024-10-11 11:38:15 [ERROR] Database connection lost while processing transaction ID 98765.
-2024-10-11 11:38:19 [ERROR] Payment gateway timeout for transaction ID 87654.
-2024-10-11 11:38:21 [ERROR] Payment gateway timeout for transaction ID 87654.
-2024-10-11 11:38:25 [FATAL] Server crashed due to memory overflow at address 0x004FA1.
+2024-10-11 11:42:02 [ERROR] User ID 67890 failed to authenticate. Invalid credentials.
+2024-10-11 11:42:05 [FATAL] Application terminated unexpectedly: Out of memory.
+2024-10-11 11:42:12 [ERROR] Failed to load configuration file: /etc/app/config.yml.
+2024-10-11 11:42:14 [ERROR] Unable to send email: SMTP server not responding.
+2024-10-11 11:42:16 [ERROR] Payment gateway timeout for transaction ID 87654.
