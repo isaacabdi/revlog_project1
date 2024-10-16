@@ -97,3 +97,73 @@ Cleared app.log file.
 DELETE 0
 Entries older than 1 hour deleted successfully.
 Cleared app.log file.
+2024-10-15 17:50:54 - Starting log monitor script.
+2024-10-15 17:52:59 - Starting log monitor script.
+2024-10-15 17:53:40 - Starting log monitor script.
+2024-10-15 18:02:51 - Starting log monitor script.
+2024-10-15 18:03:36 - Starting log monitor script.
+awk: cmd. line:1: /home/isaacabdi/revature/project1/logfiles/escalate.log
+awk: cmd. line:1:                                                    ^ syntax error
+2024-10-15 18:04:23 - Starting log monitor script.
+2024-10-15 18:04:50 - Starting log monitor script.
+2024-10-15 18:06:22 - Starting log monitor script.
+2024-10-15 18:06:54 - Starting log monitor script.
+2024-10-15 18:07:53 - Starting log monitor script.
+ERROR:  column "timestamp" does not exist
+LINE 1: ...ntries (timestamplogged, level, message) VALUES ( TIMESTAMP ...
+                                                             ^
+ERROR:  column "timestamp" does not exist
+LINE 1: ...ntries (timestamplogged, level, message) VALUES ( TIMESTAMP ...
+                                                             ^
+ERROR:  column "timestamp" does not exist
+LINE 1: ...ntries (timestamplogged, level, message) VALUES ( TIMESTAMP ...
+                                                             ^
+2024-10-15 18:11:08 - Starting log monitor script.
+ERROR:  syntax error at or near "s"
+LINE 1: ...ERROR', 'User ID 67890 failed to authenticate. It's Invalid ...
+                                                             ^
+2024-10-15 18:13:57 - Starting log monitor script.
+2024-10-15 18:15:06 - Starting log monitor script.
+2024-10-15 18:22:14 - Starting log monitor script.
+ERROR:  column "timestamp" does not exist
+LINE 1: ...ntries (timestamplogged, level, message) VALUES ( TIMESTAMP ...
+                                                             ^
+ERROR:  column "timestamp" does not exist
+LINE 1: ...ntries (timestamplogged, level, message) VALUES ( TIMESTAMP ...
+                                                             ^
+ERROR:  column "timestamp" does not exist
+LINE 1: ...ntries (timestamplogged, level, message) VALUES ( TIMESTAMP ...
+                                                             ^
+2024-10-15 18:24:11 - Starting log monitor script.
+ERROR:  syntax error at or near "17"
+LINE 1: ...mestamplogged, level, message) VALUES (2024-10-15 17:13:04, ...
+                                                             ^
+ERROR:  syntax error at or near "17"
+LINE 1: ...mestamplogged, level, message) VALUES (2024-10-15 17:13:06, ...
+                                                             ^
+ERROR:  syntax error at or near "17"
+LINE 1: ...mestamplogged, level, message) VALUES (2024-10-15 17:13:11, ...
+                                                             ^
+2024-10-15 18:24:21 - Starting log monitor script.
+2024-10-15 18:38:26 - Starting log monitor script.
+awk: cmd. line:13:     print "Timestamp: " TIMESTAMP-
+awk: cmd. line:13:                                   ^ unexpected newline or end of string
+2024-10-15 18:38:40 - Starting log monitor script.
+DELETE 0
+Entries older than 1 hour deleted successfully.
+Cleared app.log file.
+DELETE 0
+Entries older than 1 hour deleted successfully.
+Cleared app.log file.
+DELETE 0
+Entries older than 1 hour deleted successfully.
+Cleared app.log file.
+DELETE 0
+Entries older than 1 hour deleted successfully.
+Cleared app.log file.
+DELETE 0
+Entries older than 1 hour deleted successfully.
+Cleared app.log file.
+DELETE 0
+Entries older than 1 hour deleted successfully.
+Cleared app.log file.
