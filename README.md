@@ -12,9 +12,9 @@ Log monitoring and alert system using Bash, PostgreSQL, and Python. The system w
 - Automate log generation, monitoring, and alerting with cron jobs.
 
 ## Instructions
-- 3 scripts stringmn.py | alert_system.py | cleanup.sh
-- run scriptmanager.sh script or add manually to crontab -e to run the above 3 scripts in order sequentially
-- then run the generate_logs.sh: indefinitely generates random logs and prints them to app.log, run this after scriptmanager.sh
+- 3 scripts `stringmn.py` | `alert_system.py` | `cleanup.sh`
+- run `scriptmanager.sh` script or add manually to crontab -e to run the above 3 scripts in order sequentially
+- then run the `generate_logs.sh`: indefinitely generates random logs and prints them to app.log, run this after `scriptmanager.sh`
 
 ## Technologies
 
