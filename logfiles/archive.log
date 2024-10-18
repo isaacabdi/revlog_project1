@@ -1,0 +1,51 @@
+2024-10-18 09:16:52 [WARNING] Database query took longer than expected (3.4 seconds).
+2024-10-18 09:16:53 [INFO] Scheduled job 'cleanup_temp_files' executed at 2024-10-18 09:16:53.
+2024-10-18 09:16:55 [WARNING] API response time for user ID 54321 exceeded 2 seconds.
+2024-10-18 09:16:56 [FATAL] Server crashed due to memory overflow at address 0x004FA1.
+2024-10-18 09:16:57 [INFO] Scheduled job 'cleanup_temp_files' executed at 2024-10-18 09:16:57.
+2024-10-18 09:16:58 [WARNING] API response time for user ID 54321 exceeded 2 seconds.
+2024-10-18 09:17:00 [WARNING] Database query took longer than expected (3.4 seconds).
+2024-10-18 09:17:01 [INFO] User ID 12345 successfully logged in.
+2024-10-18 09:17:01 [ERROR] Payment gateway timeout for transaction ID 87654.
+2024-10-18 09:17:03 [FATAL] Disk failure detected on /dev/sdb. Immediate replacement required.
+2024-10-18 09:17:04 [INFO] User ID 12345 successfully logged in.
+2024-10-18 09:17:06 [ERROR] Payment gateway timeout for transaction ID 87654.
+2024-10-18 09:17:07 [WARNING] Unusually high number of login attempts from IP 192.168.1.101.
+2024-10-18 09:17:08 [FATAL] Server crashed due to memory overflow at address 0x004FA1.
+2024-10-18 09:17:10 [ERROR] Unable to send email: SMTP server not responding.
+2024-10-18 09:17:12 [INFO] Scheduled job 'cleanup_temp_files' executed at 2024-10-18 09:17:12.
+2024-10-18 09:17:13 [FATAL] Service 'app-backend' failed to start: Missing dependency.
+2024-10-18 09:17:14 [INFO] Scheduled job 'cleanup_temp_files' executed at 2024-10-18 09:17:14.
+2024-10-18 09:17:15 [FATAL] Application terminated unexpectedly: Out of memory.
+2024-10-18 09:17:17 [ERROR] Database connection lost while processing transaction ID 98765.
+2024-10-18 09:17:18 [WARNING] API response time for user ID 54321 exceeded 2 seconds.
+2024-10-18 09:17:20 [ERROR] Failed to load configuration file: /etc/app/config.yml.
+2024-10-18 09:17:21 [INFO] User ID 12345 successfully logged in.
+2024-10-18 09:17:22 [FATAL] Critical error: Kernel panic occurred. System halted.
+2024-10-18 09:17:23 [WARNING] Unusually high number of login attempts from IP 192.168.1.101.
+2024-10-18 09:17:24 [ERROR] Payment gateway timeout for transaction ID 87654.
+2024-10-18 09:17:26 [FATAL] Service 'app-backend' failed to start: Missing dependency.
+2024-10-18 09:17:27 [INFO] User ID 12345 successfully logged in.
+2024-10-18 09:17:28 [WARNING] Disk space usage at 85% on /dev/sda1.
+2024-10-18 09:17:30 [WARNING] Memory usage is high: 78% of available memory used.
+2024-10-18 09:17:31 [WARNING] Unusually high number of login attempts from IP 192.168.1.101.
+2024-10-18 09:17:32 [ERROR] Unable to send email: SMTP server not responding.
+2024-10-18 09:17:33 [ERROR] User ID 67890 failed to authenticate. Invalid credentials.
+2024-10-18 09:17:35 [ERROR] Database connection lost while processing transaction ID 98765.
+2024-10-18 09:17:36 [FATAL] Critical error: Kernel panic occurred. System halted.
+2024-10-18 09:17:38 [INFO] Scheduled job 'cleanup_temp_files' executed at 2024-10-18 09:17:38.
+2024-10-18 09:17:39 [ERROR] Failed to load configuration file: /etc/app/config.yml.
+2024-10-18 09:17:41 [FATAL] Disk failure detected on /dev/sdb. Immediate replacement required.
+2024-10-18 09:17:43 [FATAL] Disk failure detected on /dev/sdb. Immediate replacement required.
+2024-10-18 09:17:44 [ERROR] Unable to send email: SMTP server not responding.
+2024-10-18 09:17:45 [ERROR] Failed to load configuration file: /etc/app/config.yml.
+2024-10-18 09:17:46 [FATAL] Disk failure detected on /dev/sdb. Immediate replacement required.
+2024-10-18 09:17:48 [WARNING] Database query took longer than expected (3.4 seconds).
+2024-10-18 09:17:50 [ERROR] User ID 67890 failed to authenticate. Invalid credentials.
+2024-10-18 09:17:51 [FATAL] Disk failure detected on /dev/sdb. Immediate replacement required.
+2024-10-18 09:17:53 [ERROR] Failed to load configuration file: /etc/app/config.yml.
+2024-10-18 09:17:54 [WARNING] Unusually high number of login attempts from IP 192.168.1.101.
+2024-10-18 09:17:56 [ERROR] Failed to load configuration file: /etc/app/config.yml.
+2024-10-18 09:17:58 [ERROR] Database connection lost while processing transaction ID 98765.
+2024-10-18 09:17:59 [ERROR] Payment gateway timeout for transaction ID 87654.
+2024-10-18 09:18:00 [ERROR] Unable to send email: SMTP server not responding.

@@ -1,4 +1,3 @@
-#cleanup old db logs older than 1 hour clear app.log txt file
 #!/bin/bash
 
 # Database connection details
@@ -21,7 +20,22 @@ else
     echo "Error deleting entries from the database."
 fi
 
-#Clear app.log txt
-: > "/home/isaacabdi/revature/project1/logfiles/app.log" && : > "/home/isaacabdi/revature/project1/logfiles/escalate.log"
-# Log that the file has been cleared
-echo "Cleared app.log file." >> "/home/isaacabdi/revature/project1/logfiles/test.txt"
+# Paths to log files
+APP_LOG="/home/isaacabdi/revature/project1/logfiles/app.log"
+ARCHIVE_LOG="/home/isaacabdi/revature/project1/logfiles/archive.log"
+ESCALATE_LOG="/home/isaacabdi/revature/project1/logfiles/escalate.log"
+TEST_LOG="/home/isaacabdi/revature/project1/logfiles/test.txt"
+
+# Append the contents of app.log to archive.log before clearing
+if [ -s "$APP_LOG" ]; then
+    cat "$APP_LOG" >> "$ARCHIVE_LOG"
+    echo "app.log contents archived to archive.log." >> "$TEST_LOG"
+else
+    echo "app.log is empty, nothing to archive." >> "$TEST_LOG"
+fi
+
+# Clear app.log and escalate.log
+: > "$APP_LOG" && : > "$ESCALATE_LOG"
+
+# Log that the files have been cleared
+echo "Cleared app.log and escalate.log files." >> "$TEST_LOG"
