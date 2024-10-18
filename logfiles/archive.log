@@ -293,3 +293,90 @@
 2024-10-18 09:45:17 [FATAL] Service 'app-backend' failed to start: Missing dependency.
 2024-10-18 09:45:19 [FATAL] Application terminated unexpectedly: Out of memory.
 2024-10-18 09:45:21 [WARNING] Unusually high number of login attempts from IP 192.168.1.101.
+2024-10-18 15:32:37 [WARNING] API response time for user ID 54321 exceeded 2 seconds.
+2024-10-18 15:32:38 [INFO] System health check passed; all services running.
+2024-10-18 15:32:40 [INFO] User ID 12345 successfully logged in.
+2024-10-18 15:32:42 [FATAL] Service 'app-backend' failed to start: Missing dependency.
+2024-10-18 15:32:43 [ERROR] Database connection lost while processing transaction ID 98765.
+2024-10-18 15:32:44 [ERROR] Unable to send email: SMTP server not responding.
+2024-10-18 15:32:46 [ERROR] Unable to send email: SMTP server not responding.
+2024-10-18 15:32:47 [FATAL] Critical error: Kernel panic occurred. System halted.
+2024-10-18 15:32:48 [ERROR] Failed to load configuration file: /etc/app/config.yml.
+2024-10-18 15:32:49 [ERROR] Database connection lost while processing transaction ID 98765.
+2024-10-18 15:32:51 [WARNING] Database query took longer than expected (3.4 seconds).
+2024-10-18 15:32:52 [ERROR] Database connection lost while processing transaction ID 98765.
+2024-10-18 15:32:53 [WARNING] Disk space usage at 85% on /dev/sda1.
+2024-10-18 15:32:55 [ERROR] Payment gateway timeout for transaction ID 87654.
+2024-10-18 15:32:57 [ERROR] Unable to send email: SMTP server not responding.
+2024-10-18 15:32:59 [FATAL] Service 'app-backend' failed to start: Missing dependency.
+2024-10-18 15:33:00 [FATAL] Critical error: Kernel panic occurred. System halted.
+2024-10-18 15:33:01 [INFO] User ID 12345 successfully logged in.
+2024-10-18 15:48:20 [FATAL] Disk failure detected on /dev/sdb. Immediate replacement required.
+2024-10-18 15:48:22 [FATAL] Disk failure detected on /dev/sdb. Immediate replacement required.
+2024-10-18 15:48:24 [WARNING] Unusually high number of login attempts from IP 192.168.1.101.
+2024-10-18 15:48:25 [WARNING] Disk space usage at 85% on /dev/sda1.
+2024-10-18 15:48:27 [WARNING] Unusually high number of login attempts from IP 192.168.1.101.
+2024-10-18 15:48:28 [ERROR] User ID 67890 failed to authenticate. Invalid credentials.
+2024-10-18 15:48:30 [WARNING] Unusually high number of login attempts from IP 192.168.1.101.
+2024-10-18 15:48:32 [INFO] User ID 98765 updated account details.
+2024-10-18 15:48:34 [ERROR] User ID 67890 failed to authenticate. Invalid credentials.
+2024-10-18 15:48:35 [WARNING] Disk space usage at 85% on /dev/sda1.
+2024-10-18 15:48:37 [WARNING] Disk space usage at 85% on /dev/sda1.
+2024-10-18 15:48:38 [ERROR] Payment gateway timeout for transaction ID 87654.
+2024-10-18 15:48:39 [WARNING] Unusually high number of login attempts from IP 192.168.1.101.
+2024-10-18 15:48:40 [ERROR] Payment gateway timeout for transaction ID 87654.
+2024-10-18 15:48:41 [WARNING] Disk space usage at 85% on /dev/sda1.
+2024-10-18 15:48:43 [FATAL] Server crashed due to memory overflow at address 0x004FA1.
+2024-10-18 15:48:44 [WARNING] API response time for user ID 54321 exceeded 2 seconds.
+2024-10-18 15:48:45 [INFO] Scheduled job 'cleanup_temp_files' executed at 2024-10-18 15:48:45.
+2024-10-18 15:48:46 [INFO] Daily backup completed successfully.
+2024-10-18 15:48:47 [FATAL] Disk failure detected on /dev/sdb. Immediate replacement required.
+2024-10-18 15:48:48 [ERROR] Database connection lost while processing transaction ID 98765.
+2024-10-18 15:48:50 [INFO] Daily backup completed successfully.
+2024-10-18 15:48:50 [ERROR] Payment gateway timeout for transaction ID 87654.
+2024-10-18 15:48:51 [INFO] System health check passed; all services running.
+2024-10-18 15:48:53 [FATAL] Application terminated unexpectedly: Out of memory.
+2024-10-18 15:48:56 [FATAL] Disk failure detected on /dev/sdb. Immediate replacement required.
+2024-10-18 15:48:57 [FATAL] Server crashed due to memory overflow at address 0x004FA1.
+2024-10-18 15:48:58 [FATAL] Service 'app-backend' failed to start: Missing dependency.
+2024-10-18 15:49:00 [WARNING] Database query took longer than expected (3.4 seconds).
+2024-10-18 15:49:02 [ERROR] Database connection lost while processing transaction ID 98765.
+2024-10-18 15:49:04 [WARNING] Unusually high number of login attempts from IP 192.168.1.101.
+2024-10-18 15:49:06 [FATAL] Application terminated unexpectedly: Out of memory.
+2024-10-18 15:49:08 [WARNING] API response time for user ID 54321 exceeded 2 seconds.
+2024-10-18 15:49:10 [WARNING] Database query took longer than expected (3.4 seconds).
+2024-10-18 15:49:12 [WARNING] Memory usage is high: 78% of available memory used.
+2024-10-18 15:49:14 [FATAL] Disk failure detected on /dev/sdb. Immediate replacement required.
+2024-10-18 15:49:16 [INFO] User ID 98765 updated account details.
+2024-10-18 15:49:17 [WARNING] Disk space usage at 85% on /dev/sda1.
+2024-10-18 15:49:18 [WARNING] Memory usage is high: 78% of available memory used.
+2024-10-18 15:49:19 [WARNING] Disk space usage at 85% on /dev/sda1.
+2024-10-18 15:49:21 [INFO] Scheduled job 'cleanup_temp_files' executed at 2024-10-18 15:49:21.
+2024-10-18 15:49:22 [ERROR] Failed to load configuration file: /etc/app/config.yml.
+2024-10-18 15:49:22 [INFO] System health check passed; all services running.
+2024-10-18 15:49:24 [INFO] Scheduled job 'cleanup_temp_files' executed at 2024-10-18 15:49:24.
+2024-10-18 15:49:26 [ERROR] Failed to load configuration file: /etc/app/config.yml.
+2024-10-18 15:49:28 [INFO] System health check passed; all services running.
+2024-10-18 15:49:29 [INFO] User ID 98765 updated account details.
+2024-10-18 15:49:30 [WARNING] API response time for user ID 54321 exceeded 2 seconds.
+2024-10-18 15:49:32 [WARNING] Disk space usage at 85% on /dev/sda1.
+2024-10-18 15:49:33 [WARNING] Memory usage is high: 78% of available memory used.
+2024-10-18 15:49:34 [ERROR] User ID 67890 failed to authenticate. Invalid credentials.
+2024-10-18 15:49:35 [FATAL] Application terminated unexpectedly: Out of memory.
+2024-10-18 15:49:36 [ERROR] Payment gateway timeout for transaction ID 87654.
+2024-10-18 15:49:37 [FATAL] Critical error: Kernel panic occurred. System halted.
+2024-10-18 15:49:39 [FATAL] Server crashed due to memory overflow at address 0x004FA1.
+2024-10-18 15:49:40 [ERROR] Unable to send email: SMTP server not responding.
+2024-10-18 15:49:42 [INFO] User ID 98765 updated account details.
+2024-10-18 15:49:44 [ERROR] Failed to load configuration file: /etc/app/config.yml.
+2024-10-18 15:49:46 [WARNING] Database query took longer than expected (3.4 seconds).
+2024-10-18 15:49:48 [INFO] Scheduled job 'cleanup_temp_files' executed at 2024-10-18 15:49:48.
+2024-10-18 15:49:49 [FATAL] Server crashed due to memory overflow at address 0x004FA1.
+2024-10-18 15:49:51 [WARNING] Unusually high number of login attempts from IP 192.168.1.101.
+2024-10-18 15:49:52 [ERROR] Failed to load configuration file: /etc/app/config.yml.
+2024-10-18 15:49:53 [INFO] User ID 12345 successfully logged in.
+2024-10-18 15:49:54 [WARNING] Database query took longer than expected (3.4 seconds).
+2024-10-18 15:49:56 [WARNING] Disk space usage at 85% on /dev/sda1.
+2024-10-18 15:49:58 [WARNING] Unusually high number of login attempts from IP 192.168.1.101.
+2024-10-18 15:50:00 [INFO] User ID 98765 updated account details.
+2024-10-18 15:50:01 [WARNING] API response time for user ID 54321 exceeded 2 seconds.
