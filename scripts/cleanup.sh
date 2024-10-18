@@ -1,5 +1,11 @@
 #!/bin/bash
 
+# Paths to log files
+APP_LOG="/home/isaacabdi/revature/project1/logfiles/app.log"
+ARCHIVE_LOG="/home/isaacabdi/revature/project1/logfiles/archive.log"
+ESCALATE_LOG="/home/isaacabdi/revature/project1/logfiles/escalate.log"
+TEST_LOG="/home/isaacabdi/revature/project1/logfiles/test.txt"
+
 # Database connection details
 DB_NAME='project1'  # Replace with your database name
 USER='isaacabdi'  # Replace with your PostgreSQL username
@@ -19,12 +25,6 @@ if [ $? -eq 0 ]; then
 else
     echo "Error deleting entries from the database."
 fi
-
-# Paths to log files
-APP_LOG="/home/isaacabdi/revature/project1/logfiles/app.log"
-ARCHIVE_LOG="/home/isaacabdi/revature/project1/logfiles/archive.log"
-ESCALATE_LOG="/home/isaacabdi/revature/project1/logfiles/escalate.log"
-TEST_LOG="/home/isaacabdi/revature/project1/logfiles/test.txt"
 
 # Append the contents of app.log to archive.log before clearing
 if [ -s "$APP_LOG" ]; then

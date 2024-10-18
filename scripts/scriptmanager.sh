@@ -21,7 +21,7 @@ INSERTPYTHONPATH="/home/isaacabdi/revature/project1/src/stringmn.py"
 #2>&1 means redirect stderr (2) to the same place stdout (1) is being sent."
 #set up cron job\
 
-# CLEANUPPATH and MONITORPATH and PYTHONALERTS run every 1 minutes, run generatespath seperately
+#INSERT, ALERTS, CLEANUPPATH run every 1 minutes, 
 (crontab -l ; echo "*/1 * * * * $VENV_PYTHON_PATH $INSERTPYTHONPATH; $VENV_PYTHON_PATH $PYTHONALERTS; $CLEANUPPATH >> /home/isaacabdi/revature/project1/logfiles/test.txt 2>&1") | crontab -
 
 #Display the updated crontab
