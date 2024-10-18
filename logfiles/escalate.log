@@ -1,0 +1,4 @@
+2024-10-18 15:50:02 [FATAL] Server crashed due to memory overflow at address 0x004FA1.
+2024-10-18 15:50:07 [ERROR] Failed to load configuration file: /etc/app/config.yml.
+2024-10-18 15:50:12 [FATAL] Critical error: Kernel panic occurred. System halted.
+2024-10-18 15:50:14 [ERROR] Payment gateway timeout for transaction ID 87654.

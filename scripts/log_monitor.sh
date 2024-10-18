@@ -1,9 +1,5 @@
 
 # python3 db_utility.py
-
-
-# monitors generated logfile txt app.log? use tail or grep
-
 # Filter ERROR and FATAL entries and insert them 
 # into a PostgreSQL database using db_utility.py
 
@@ -19,16 +15,14 @@ PASSWORD='temp1x556!'    # Your PostgreSQL password
 HOST='localhost'  # or '127.0.0.1'
 PORT='5432'  # Default PostgreSQL port
 
-echo "$(date '+%Y-%m-%d %H:%M:%S') - Starting log monitor script." >> "$SCRIPT_LOGFILE"
+while read line; do
+	# timestamp field
+	TIMESTAMP=$(echo $line | awk '{print $1, $2}')
+	# level field
+	LEVEL=$(echo $line | grep -o 'ERROR\|FATAL')
+	# message field
+	MESSAGE=$(echo $line | awk -F '] ' '{print $2}' | sed "s/'/''/g")
+    #insertion
+	PGPASSWORD=$PASSWORD psql -U $USER -d $DB_NAME -c "INSERT INTO urgentlog_entries (timestamplogged, level, message) VALUES ('$TIMESTAMP', '$LEVEL', '$MESSAGE')";
 
-grep -E "ERROR|FATAL" $LOGFILE > $ESCALATEFILE
-
-#grep "ERROR" /home/isaacabdi/revature/project1/logfiles/app.log > $ESCALATEFILE
-#grep "FATAL" /home/isaacabdi/revature/project1/logfiles/app.log > $ESCALATEFILE
-
-# Process escalate.log with awk inserts to psql database 
-
-
-
-# Insert into PostgreSQL
-# system("PGPASSWORD=" DB_PASS " psql -U " DB_USER " -d " DB_NAME " -c \"INSERT INTO logs (timestamp, level, message) VALUES (\'" TIMESTAMP "\', \'" LEVEL "\', \'" MESSAGE "\');\"");
+done < "$LOGFILE"

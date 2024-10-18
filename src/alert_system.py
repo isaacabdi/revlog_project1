@@ -1,6 +1,3 @@
-# monitor the database and trigger alerts if error thresholds (5 errors, 1 fatal) are exceeded.
-# queries the log_entries table in PostgreSQL to count how many ERRORs and FATALs occurred within a certain time window (e.g., the last minute).\
-# trigger the alert by writing /home/isaacabdi/revature/project1/logfiles/alert.log
 #!/usr/bin/env python3
 import psycopg2
 from psycopg2 import sql
@@ -71,7 +68,6 @@ if __name__ == "__main__":
 
     except (Exception, psycopg2.Error) as error:
         print(f"Error connecting to the database: {error}")
-
 
     finally:
         if connection:
